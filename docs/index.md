@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+# Zest
+Zest makes beautiful and performant CSS animations straight from Figma files.
 
-You can use the [editor on GitHub](https://github.com/daniel-cotton/zest-figma/edit/live/docs/index.md) to maintain and preview the content for your website in Markdown files.
+## Quickstart
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Building an animation in Zest is easy.
 
-### Markdown
+### Step 1
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Create a starting "frame" in Figma, then duplicate it for each keyframe in the animation.
 
-```markdown
-Syntax highlighted code block
+### Step 2
 
-# Header 1
-## Header 2
-### Header 3
+Connect your frames using Figma's prototyping tools. Zest will end the animation after it loops or reaches a frame without any further interactions.
 
-- Bulleted
-- List
+![Image of figma frames for demo animation connected via Figma prototyping tools](/assets/images/step-1.jpg)
 
-1. Numbered
-2. List
+### Step 3
 
-**Bold** and _Italic_ and `Code` text
+Right-click on the first frame of your animation and open the Zest plugin to generate the animation.
 
-[Link](url) and ![Image](src)
-```
+![Image of figma plugin menu](/assets/images/step-1.jpg)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Step 4
 
-### Jekyll Themes
+Zest will open up, with a preview of the animation, SVG markup and CSS animation ready-to-go.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/daniel-cotton/zest-figma/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+![Image of Zest UI with preview animation and output markup](/assets/images/step-1.jpg)
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Supported Animation Features
+
+Zest is in it's early days, it supports a handful of types of animation features including:
+
+ - Opacity (for zero value, use 0.1%!)
+ - Rectangle Scale & Position
+ - Circle Scale & Position
+ - Path Scale, Rotation and Position
