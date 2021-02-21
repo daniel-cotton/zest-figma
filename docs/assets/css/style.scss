@@ -1,1 +1,17 @@
 @import "{{ site.theme }}";
+
+.page-header {
+  background: linear-gradient(180deg, #FEC89A 0%, #FEC89A 0.01%, #FFB5A7 100%);
+}
+
+.project-name {
+  color: transparent;
+  background-image: url('assets/brand/zest.svg');
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+  color: #FFB5A7;
+}
