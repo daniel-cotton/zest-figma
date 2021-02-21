@@ -1,6 +1,12 @@
 # Zest
 Zest makes beautiful and performant CSS animations straight from Figma files.
 
+## Installing
+
+You can find Zest in Figma Community.
+
+https://www.figma.com/community/plugin/937773902534356458
+
 ## Quickstart
 
 Building an animation in Zest is easy.
