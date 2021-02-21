@@ -1,0 +1,18 @@
+{
+  "name": "Zest",
+  "version": "1.0.0",
+  "description": "Zest turns Figma Frames into CSS animations",
+  "main": "src/plugin.js",
+  "scripts": {
+    "build": "browserify ./src/ui.js | htmlify ./src/ui.html > ./dist/ui.html && cp ./src/plugin.js ./dist/plugin.js"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "inline-htmlify": "^2.0.1"
+  },
+  "dependencies": {
+    "transformation-matrix": "^2.6.0"
+  }
+}
